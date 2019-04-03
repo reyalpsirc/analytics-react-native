@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.0.1-test-publish-ci.0"></a>
+
+## [0.0.1-test-publish-ci.0](https://github.com/segmentio/analytics-react-native/compare/v0.0.1-beta.5...v0.0.1-test-publish-ci.0) (2019-04-03)
+
 <a name="0.0.1-beta.5"></a>
 
 ## [0.0.1-beta.5](https://github.com/segmentio/analytics-react-native/compare/v0.0.1-beta.4...v0.0.1-beta.5) (2019-04-01)
