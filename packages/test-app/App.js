@@ -12,6 +12,12 @@ const Button = ({ title, onPress }) => (
 
 const screenHome = () => analytics.screen('Home')
 
+const logAnonymousId = () => {
+	analytics.getAnonymousId(anonymousId => {
+		console.log('anonymousId: ' + anonymousId)
+	})
+}
+
 const flush = () => analytics.flush()
 
 const pizzaEaten = () => analytics.track('Pizza Eaten')
@@ -54,6 +60,7 @@ export default class App extends Component {
 				<Button title="Flush" onPress={flush} />
 				<Button title="Track: Pizza Eaten" onPress={pizzaEaten} />
 				<Button title="Launch test suite" onPress={testSuite} />
+				<Button title="Log AnonymousID" onPress={logAnonymousId} />
 			</View>
 		)
 	}

@@ -128,6 +128,10 @@ class RNAnalyticsModule(context: ReactApplicationContext): ReactContextBaseJavaM
     @ReactMethod
     fun disable() =
         analytics.optOut(true)
+
+    @ReactMethod
+    fun getAnonymousId(errorCallback: Callback, successCallback: Callback) =
+        successCallback.invoke(analytics.getAnalyticsContext().traits().anonymousId())
 }
 
 private infix fun<T: ValueMap> T.from(source: ReadableMap): T {

@@ -8,5 +8,6 @@ export default {
 	reset: jest.fn(),
 	screen: jest.fn(),
 	setup: jest.fn(),
-	track: jest.fn()
+	track: jest.fn(),
+	getAnonymousId: jest.fn()
 }
