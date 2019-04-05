@@ -19,6 +19,7 @@
 * [disable](analytics.client.md#disable)
 * [enable](analytics.client.md#enable)
 * [flush](analytics.client.md#flush)
+* [getDeviceId](analytics.client.md#getdeviceid)
 * [group](analytics.client.md#group)
 * [identify](analytics.client.md#identify)
 * [middleware](analytics.client.md#middleware)
@@ -133,6 +134,19 @@ Trigger an upload of all queued events.
 This is useful when you want to force all messages queued on the device to be uploaded. Please note that not all integrations respond to this method.
 
 **Returns:** `Promise`<`void`>
+
+___
+<a id="getdeviceid"></a>
+
+###  getDeviceId
+
+▸ **getDeviceId**(): `Promise`<`string`>
+
+*Defined in analytics.ts:306*
+
+Returns the device id of the current device
+
+**Returns:** `Promise`<`string`>
 
 ___
 <a id="group"></a>

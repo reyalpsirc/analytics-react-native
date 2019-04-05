@@ -111,4 +111,11 @@ RCT_EXPORT_METHOD(disable) {
     [SEGAnalytics.sharedAnalytics disable];
 }
 
+RCT_REMAP_METHOD(getDeviceId,
+                  findEventsWithResolver:(RCTPromiseResolveBlock)resolve
+                  rejecter:(RCTPromiseRejectBlock)reject) {
+    UIDevice *device = [UIDevice currentDevice];
+    resolve([[device identifierForVendor] UUIDString]);
+}
+
 @end

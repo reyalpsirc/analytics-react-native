@@ -36,6 +36,7 @@ export interface Bridge {
 	flush(): Promise<void>
 	enable(): Promise<void>
 	disable(): Promise<void>
+	getDeviceId(): Promise<string>
 }
 
 const bridge: Bridge = NativeModules.RNAnalytics

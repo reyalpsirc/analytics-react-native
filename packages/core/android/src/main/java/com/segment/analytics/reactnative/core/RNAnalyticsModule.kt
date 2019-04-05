@@ -28,10 +28,12 @@ import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule
 import com.facebook.react.bridge.ReactMethod
 import com.facebook.react.bridge.ReadableMap
+import com.facebook.react.bridge.Promise;
 import com.segment.analytics.Analytics
 import com.segment.analytics.Properties
 import com.segment.analytics.Traits
 import com.segment.analytics.ValueMap
+import com.segment.analytics.internal.Utils
 import java.util.concurrent.TimeUnit
 
 class RNAnalyticsModule(context: ReactApplicationContext): ReactContextBaseJavaModule(context) {
@@ -109,6 +111,11 @@ class RNAnalyticsModule(context: ReactApplicationContext): ReactContextBaseJavaM
     @ReactMethod
     fun disable() =
         analytics.optOut(true)
+
+    @ReactMethod
+    fun getDeviceId(promise: Promise) {
+        promise.resolve(Utils.getDeviceId(reactApplicationContext))
+    }
 }
 
 private infix fun<T: ValueMap> T.from(source: ReadableMap): T {

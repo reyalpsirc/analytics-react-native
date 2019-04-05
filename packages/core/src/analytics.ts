@@ -300,6 +300,13 @@ export module Analytics {
 			await this.wrapper.run('disable', disable => disable())
 		}
 
+		/**
+		 * Returns the device id of the current device
+		 */
+		public async getDeviceId() {
+			return await Bridge.getDeviceId()
+		}
+
 		private handleError(error: Error) {
 			const { handlers } = this
 
