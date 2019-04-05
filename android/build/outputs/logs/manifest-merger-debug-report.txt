@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml:1:1-61
+INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml:1:1-61
+INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml:1:1-61
+INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml:1:1-61
+INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml:1:1-61
+INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml:1:1-61
+INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml:1:1-61
+	package
+		ADDED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml:1:11-59
+		INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+		ADDED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml:1:1-61
+		INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+		ADDED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml:1:1-61
+		INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+uses-sdk
+INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+		ADDED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+		ADDED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/developer/Projects/ImagineRunReal/Project/node_modules/@segment/analytics-react-native/android/src/main/AndroidManifest.xml
